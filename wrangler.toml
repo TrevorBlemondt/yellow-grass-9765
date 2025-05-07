@@ -1,0 +1,11 @@
+name = "yellow-grass-9765"
+compatibility_date = "2024-05-07"
+
+[[durable_objects.bindings]]
+name = "Globe"
+class_name = "Globe"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["Globe"]
+new_sqlite_classes = ["Globe"]
